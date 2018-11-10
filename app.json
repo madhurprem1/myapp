@@ -1,0 +1,21 @@
+{
+  "name": "myapp",
+  "scripts": {
+  },
+  "env": {
+    "SECRET_KEY": "!)do40efjd+xgid1p4ip71p3_bwk+m61&f4cs&i37n8y+g%hxm"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
